@@ -14,5 +14,5 @@
       state: started
   - name: copy web.html
     copy:
-      src: web.html
+      src: /home/student18/ansible-files/web.html
       dest: /var/www/html/index.html
